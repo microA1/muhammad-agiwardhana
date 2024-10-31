@@ -12754,3 +12754,84 @@ pre .code {
 .section-lg {
   padding: 100px 0 !important;
 }
+
+/* Container for the logos to ensure overflow handling */
+.logo-pemrograman {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 200px;
+  /* margin-top: 50px; */
+}
+
+/* Wrapper for the logos */
+.logo-wrapper-pemrograman {
+  display: flex;
+}
+
+/* Horizontal movement animation */
+@keyframes move-horizontal {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Logo styling */
+.gambar-pemrograman {
+  transition: transform 1.3s;
+}
+
+/* Add scaling effect on hover */
+.gambar-pemrograman:hover {
+  transform: scale(1.1);
+}
+
+/* Ukuran logo di berbagai layar */
+@media (min-width: 1200px) {
+  .gambar-pemrograman {
+    width: 100px;
+    height: 85px;
+  }
+  .logo-pemrograman {
+    height: 200px;
+    margin-top: -20px;
+  }
+  .logo-wrapper-pemrograman {
+    gap: 80px;
+    animation: move-horizontal 25s linear infinite;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .gambar-pemrograman {
+    width: 85px;
+    height: 70px;
+  }
+
+  .logo-pemrograman {
+    height: 150px;
+    margin-top: -20px;
+  }
+  .logo-wrapper-pemrograman {
+    gap: 70px;
+    animation: move-horizontal 20s linear infinite;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .gambar-pemrograman {
+    width: 70px;
+    height: 55px;
+  }
+
+  .logo-pemrograman {
+    height: 80px;
+  }
+  .logo-wrapper-pemrograman {
+    gap: 50px;
+    animation: move-horizontal 15s linear infinite;
+  }
+}
