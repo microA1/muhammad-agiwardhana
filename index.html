@@ -1,263 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Meyawo landing page.">
-    <meta name="author" content="Devcrud">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Start your development with Meyawo landing page."
+    />
+    <meta name="author" content="Devcrud" />
     <title>Portofolio | Muhammad Agi Wardhana</title>
+    <link rel="icon" href="assets/imgs/archive.png" />
+
     <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link
+      rel="stylesheet"
+      href="assets/vendors/themify-icons/css/themify-icons.css"
+    />
     <!-- Bootstrap + Meyawo main styles -->
-    <link rel="stylesheet" href="assets/css/meyawo.css">
+    <link rel="stylesheet" href="assets/css/meyawo.css" />
     <style>
+      .about-img {
+        border-radius: 10%;
+        object-fit: cover;
+        /* width: 200px; pastikan width dan height sama */
+        /* height: 200px; */
+      }
     </style>
-</head>
+  </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-
+  <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
-        <div class="container">
-            <a class="logo" href="#">Muhammad Agi Wardhana</a>
-            <ul class="nav">
-                <li class="item">
-                    <a class="link" href="#home">Home</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#about">About</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#testmonial">Testmonial</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#blog">Blog</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#contact">Contact</a>
-                </li>
-                <li class="item ml-md-3">
-                    <a href="components.html" class="btn btn-primary">Components</a>
-                </li>
-            </ul>
-            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
-                <div class="hamburger-box">
-                    <div class="hamburger-inner"></div>
-                </div>
-            </a>
-        </div>
-    </nav><!-- End of Page Navbar -->
+      <div class="container">
+        <a class="logo" href="#">Muhammad Agi Wardhana</a>
+        <!-- <ul class="nav">
+          <li class="item">
+            <a class="link" href="#home">Home</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#about">About</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#testmonial">Testmonial</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#blog">Blog</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#contact">Contact</a>
+          </li>
+          <li class="item ml-md-3">
+            <a href="components.html" class="btn btn-primary">Components</a>
+          </li>
+        </ul>
+        <a
+          href="javascript:void(0)"
+          id="nav-toggle"
+          class="hamburger hamburger--elastic"
+        >
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </a> -->
+      </div>
+    </nav>
+    <!-- End of Page Navbar -->
 
     <!-- page header -->
     <header id="home" class="header">
-        <div class="overlay"></div>
-        <div class="header-content container">
-            <h1 class="header-title">
-                <span class="up">Hi!</span>
-                <span class="down">Selamat Datang</span>
-            </h1>
-            <p class="header-subtitle">Di website ini, Kamu dapat melihat apa yang pernah saya buat</p>
+      <div class="overlay"></div>
+      <div class="header-content container">
+        <h1 class="header-title">
+          <span class="up">Hi!</span>
+          <span class="down">Welcome</span>
+        </h1>
+        <p class="header-subtitle">
+          On this website, you can explore the projects I've worked on.
+        </p>
 
-            <a href="#portfolio"><button class="btn btn-primary" >Lihat Portofolio</button></a>
-        </div>
-    </header><!-- end of page header -->
+        <a href="assets/pdf/muhammadagiwardhana_cv.pdf" target="_blank">
+          <button class="btn btn-primary">View My Curriculum Vitae</button>
+        </a>
+      </div>
+    </header>
+    <!-- end of page header -->
 
     <!-- about section -->
     <section class="section pt-0" id="about">
-        <!-- container -->
-        <div class="container text-center">
-            <!-- about wrapper -->
-            <div class="about">
-                <div class="about-img-holder">
-                    <img src="assets/imgs/man.png" class="about-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="about-caption">
-                    <p class="section-subtitle">Who Am I ?</p>
-                    <h2 class="section-title mb-3">About Me</h2>
-                    <p>
-                        "Saya adalah developer yang berfokus pada solusi dalam pemecahan masalah yang dihadapi dengan menggunakan teknologi web dan otomatisasi.
-                        Saya memiliki pengalaman dalam mengembangkan aplikasi website dan mobile app serta sistem otomatisasi yang mempermudah, mempersingkat 
-                        serta meningkatkan efektivitas operasional. 
-                        Saya memanfaatkan bahasa pemrograman Python, HTML, CSS, JavaScript, serta framework Django untuk menyelesaikan permasalahan yang ada.
-                        <br><br>
-                        Dengan keterampilan komunikasi yang baik, memungkinkan saya berkolaborasi efektif dengan memahami kebutuhan. 
-                        Hal ini memastikan setiap solusi yang dihasilkan tidak hanya fungsional yang tercapai, tetapi juga sesuai dengan harapan."
-                    </p>
-                </div>
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section> <!-- end of about section -->
+      <!-- container -->
+      <div class="container text-center">
+        <!-- about wrapper -->
+        <div class="about">
+          <div class="about-img-holder">
+            <img
+              src="assets/imgs/man.png"
+              class="about-img"
+              alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+            />
+          </div>
+          <div class="about-caption">
+            <p class="section-subtitle">Who Am I ?</p>
+            <h2 class="section-title mb-3">About Me</h2>
+            <p>
+              Developer focused on creating efficient digital solutions through
+              web and mobile applications, as well as data automation. I am
+              passionate about real-time monitoring systems and integrated data
+              workflows that ensure efficient and easy monitoring, improve
+              operational performance, and support automated analysis and
+              insights.
+
+              <br /><br />
+              <!-- Deeply interested in full-stack web development, mobile
+              application development, Python programming, and artificial
+              intelligence. Currently exploring the use of real-time rainfall
+              data for monitoring systems, and aspiring to become an expert in
+              AI for time-series data prediction" -->
+            </p>
+          </div>
+        </div>
+        <!-- end of about wrapper -->
+      </div>
+      <!-- end of container -->
+    </section>
+    <!-- end of about section -->
 
     <!-- service section -->
     <section class="section" id="service">
-        <div class="container text-center">
-            <p class="section-subtitle">Bagaimana Saya Bisa Membantu ?</p>
-            <h6 class="section-title mb-6">Bidang Keahlian</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/frontend.png"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Front-End Web</h6>
-                            <p class="subtitle">Mengembangkan antarmuka pengguna yang responsif dan user-friendly, 
-                                memastikan pengalaman yang mulus dan menarik bagi pengguna.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/backend.png"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Back-End Web</h6>
-                            <p class="subtitle">Menghadirkan sistem backend yang dirancang untuk memenuhi kebutuhan, 
-                                dengan prioritas pada pengeleloaan data dan skalabilitas.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/mobiles-phones.png"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Android Development</h6>
-                            <p class="subtitle">Mengotomatisasi pekerjaan manual dengan Python untuk mempercepat 
-                                dan meningkatkan akurasi pengerjaan.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/api.png"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">API</h6>
-                            <p class="subtitle">Belum Tersedia</p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end of row -->
+      <div class="container text-center">
+        <p class="section-subtitle">How Can I Help You?</p>
+        <h6 class="section-title mb-6">Areas of Expertise</h6>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card">
+              <div class="body">
+                <img
+                  src="assets/imgs/frontend.png"
+                  alt="Front-End"
+                  class="icon"
+                />
+                <h6 class="title">Front-End Web</h6>
+                <p class="subtitle">
+                  Designing responsive and interactive user interfaces using
+                  modern front-end technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card">
+              <div class="body">
+                <img
+                  src="assets/imgs/backend.png"
+                  alt="Back-End"
+                  class="icon"
+                />
+                <h6 class="title">Back-End Web</h6>
+                <p class="subtitle">
+                  Building robust server-side systems and databases to support
+                  web application functionality.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card">
+              <div class="body">
+                <img
+                  src="assets/imgs/mobiles-phones.png"
+                  alt="Android Development"
+                  class="icon"
+                />
+                <h6 class="title">Android Development</h6>
+                <p class="subtitle">
+                  Developing user-friendly Android applications with API
+                  integration and cloud messaging.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card">
+              <div class="body">
+                <img
+                  src="assets/imgs/api.png"
+                  alt="API Development"
+                  class="icon"
+                />
+                <h6 class="title">API Development</h6>
+                <p class="subtitle">
+                  Designing and managing secure, efficient APIs to enable system
+                  interoperability.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section><!-- end of service section -->
+
+        <br />
+
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card">
+              <div class="body">
+                <img
+                  src="assets/imgs/python-otomasi.png"
+                  alt="Python Automation"
+                  class="icon"
+                />
+                <h6 class="title">Python Automation</h6>
+                <p class="subtitle">
+                  Automating data processing and structured exports using Python
+                  for operational efficiency.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of service section -->
 
     <!-- portfolio section -->
     <section class="section" id="portfolio">
-        <div class="container text-center">
-            <p class="section-subtitle">Apa Yang Saya Lakukan ?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="portofolio/portofolio.html" class="portfolio-card">
-                        <img src="assets/imgs/matriks.png" class="portfolio-card-img"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Peta Monitoring Kondisi Peralatan</h5>
-                                    <p class="font-weight-normal">Category: Web Development</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-2.jpg" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-            </div><!-- end of row -->
-        </div><!-- end of container -->
-    </section> <!-- end of portfolio section -->
+      <div class="container text-center">
+        <p class="section-subtitle">What Have I Built?</p>
+        <h6 class="section-title mb-6">Portfolio</h6>
 
+        <div class="row d-flex">
+          <div class="col-md-4">
+            <a
+              href="portofolio/matriks.html"
+              target="_blank"
+              class="portfolio-card h-100"
+            >
+              <img
+                src="assets/imgs/matriks.png"
+                class="portfolio-card-img"
+                alt="Monitoring Equipment Matrix"
+              />
+              <span class="portfolio-card-overlay">
+                <span class="portfolio-card-caption">
+                  <h4>Equipment Condition Monitoring Map</h4>
+                  <p class="font-weight-normal">Category: Web Development</p>
+                </span>
+              </span>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href="https://microa1.github.io/AgiWardhana-RainfallApp/"
+              target="_blank"
+              class="portfolio-card h-100"
+            >
+              <img
+                class="portfolio-card-img"
+                src="assets/imgs/aklima.gif"
+                alt="Rainfall Monitoring App"
+              />
+              <span class="portfolio-card-overlay">
+                <span class="portfolio-card-caption">
+                  <h4>
+                    Android App for Real-Time Rainfall Monitoring and Alerts
+                  </h4>
+                  <p class="font-weight-normal">
+                    Category: Android Development
+                  </p>
+                </span>
+              </span>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="#" target="_blank" class="portfolio-card h-100">
+              <img
+                src="assets/imgs/automation-hth.gif"
+                class="portfolio-card-img"
+                alt="Python Automation Workflow"
+              />
+              <span class="portfolio-card-overlay">
+                <span class="portfolio-card-caption">
+                  <h4>
+                    Automated Data Retrieval, Processing, and CSV Delivery
+                  </h4>
+                  <p class="font-weight-normal">Category: Python Automation</p>
+                </span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of portfolio section -->
 
     <!-- section -->
     <section class="section-sm bg-white">
-        <!-- container -->
-        <div class="container text-center">
-    
-            <!-- Logo container -->
-            <div class="logo-pemrograman">
-                <div class="logo-wrapper-pemrograman">
-                    <img src="assets/imgs/html.png" alt="Logo 1" class="gambar-pemrograman">
-                    <img src="assets/imgs/css.png" alt="Logo 2" class="gambar-pemrograman">
-                    <img src="assets/imgs/php.png" alt="Logo 3" class="gambar-pemrograman">
-                    <img src="assets/imgs/ionic.png" alt="Logo 4" class="gambar-pemrograman">
-                    <!-- <img src="assets/imgs/react.png" alt="Logo 5" class="gambar-pemrograman"> -->
-                    <img src="assets/imgs/firebase.png" alt="Logo 6" class="gambar-pemrograman">
-                    <img src="assets/imgs/mysql.png" alt="Logo 7" class="gambar-pemrograman">
-                    <img src="assets/imgs/flask.png" alt="Logo 8" class="gambar-pemrograman">
-                    <img src="assets/imgs/python.png" alt="Logo 9" class="gambar-pemrograman">
-                </div>
-            </div>
-        </div> <!-- end of container -->
-    </section> 
+      <!-- container -->
+      <div class="container text-center">
+        <!-- Logo container -->
+        <div class="logo-pemrograman">
+          <div class="logo-wrapper-pemrograman">
+            <img
+              src="assets/imgs/html.png"
+              alt="Logo 1"
+              class="gambar-pemrograman"
+            />
+            <img
+              src="assets/imgs/css.png"
+              alt="Logo 2"
+              class="gambar-pemrograman"
+            />
+            <img
+              src="assets/imgs/php.png"
+              alt="Logo 3"
+              class="gambar-pemrograman"
+            />
+            <img
+              src="assets/imgs/ionic.png"
+              alt="Logo 4"
+              class="gambar-pemrograman"
+            />
+            <!-- <img src="assets/imgs/react.png" alt="Logo 5" class="gambar-pemrograman"> -->
+            <img
+              src="assets/imgs/firebase.png"
+              alt="Logo 6"
+              class="gambar-pemrograman"
+            />
+            <img
+              src="assets/imgs/mysql.png"
+              alt="Logo 7"
+              class="gambar-pemrograman"
+            />
+            <img
+              src="assets/imgs/flask.png"
+              alt="Logo 8"
+              class="gambar-pemrograman"
+            />
+            <img
+              src="assets/imgs/python.png"
+              alt="Logo 9"
+              class="gambar-pemrograman"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- end of container -->
+    </section>
     <!-- end of section -->
 
     <!-- section -->
     <section class="section-sm bg-primary">
-        <!-- container -->
-        <div class="container text-center text-sm-left">
-            <!-- row -->
-            <div class="row align-items-center">
-                <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Want to work with me?</h6>
-                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
-                </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                    <button class="btn btn-lg my-font btn-light rounded">Hire Me</button>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of section -->
+      <!-- container -->
+      <div class="container text-center text-sm-left">
+        <!-- row -->
+        <div class="row align-items-center">
+          <div class="col-sm offset-md-1 mb-4 mb-md-0">
+            <h6 class="title text-light">Interested in Working Together?</h6>
+            <p class="m-0 text-light">Feel free to reach out anytime.</p>
+          </div>
+          <div class="col-sm offset-sm-2 offset-md-3">
+            <a href="mailto:agi.wardhana@bkg.go.id">
+              <button class="btn btn-lg my-font btn-light rounded">
+                Contact Me
+              </button>
+            </a>
+          </div>
+        </div>
 
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </section>
+    <!-- end of section -->
 
     <!-- footer -->
     <div class="container">
-        <footer class="footer">
-            <p class="mb-0">Copyright
-                <script>document.write(new Date().getFullYear())</script> &copy; <a
-                    href="http://www.devcrud.com">DevCRUD</a> Distribution <a
-                    href="https://themewagon.com">ThemeWagon</a>
-            </p>
-            <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
-            </div>
-        </footer>
-    </div> <!-- end of page footer -->
+      <footer class="footer">
+        <p class="mb-0" style="font-size: small">
+          Copyright
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          &copy; Muhammad Agi Wardhana - LandingPage Inspired by
+          <a href="http://www.devcrud.com">DevCRUD</a>
+        </p>
+        <div class="social-links text-right m-auto ml-sm-auto">
+          <!-- <a href="javascript:void(0)" class="link"
+            ><i class="ti-instagram"></i
+          ></a> -->
+          <a
+            href="https://www.linkedin.com/in/muhammad-agi-wardhana-3b3625313/"
+            class="link"
+            target="_blank"
+          >
+            <i class="ti-linkedin"></i>
+          </a>
+        </div>
+      </footer>
+    </div>
+    <!-- end of page footer -->
 
     <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
@@ -268,7 +421,5 @@
 
     <!-- Meyawo js -->
     <script src="assets/js/meyawo.js"></script>
-
-</body>
-
+  </body>
 </html>

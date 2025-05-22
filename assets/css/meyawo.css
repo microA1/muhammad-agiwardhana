@@ -11584,10 +11584,13 @@ p {
   display: block;
   position: relative;
   overflow: hidden;
+  
 }
 
 .portfolio-card .portfolio-card-img {
   width: 100%;
+  
+  height: 100%;
 }
 
 .portfolio-card .portfolio-card-overlay {
